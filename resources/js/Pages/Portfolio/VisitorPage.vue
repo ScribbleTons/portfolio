@@ -243,7 +243,7 @@
             <!--copyright -->
             <div class="flex">
                 <p class="text-lg text-center">
-                    &copy; {{year}} All Rights Reserved
+                    Copyright &copy; {{year}} Ogmmanue | All Rights Reserved
                 </p>
             </div>
 
