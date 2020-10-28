@@ -99,7 +99,7 @@
             <div class="flex flex-col items-center bg-gray-200 w-full">
                 <h2 class="uppercase tracking-widest mt-4 text-2xl">about</h2>
                 <img class="p-2" :src="images.lines" alt="lines">
-                <p class="text-center px-4 my-5 text-lg lg:px-20">Hello! I'm Emmanuel, a full stuck developer, a PHP Laravel and Vue.js enthusiast, a guy slighty obsessed for code quality, and love to collaborate and solve problems with others. Also I'm a software project manager. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                <p class="text-center px-4 my-5 text-lg lg:px-20">Hello! I'm Emmanuel, a full-stack developer, a PHP Laravel and Vue.js enthusiast, a guy slighty obsessed for code quality, and love to collaborate and solve problems with others. Also I'm a software project manager. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
                 <p class="text-center px-4">
                 <blockquote class="text-md italic font-bold">The noblest art is that of making others Happy.</blockquote>
                 <div>- P.T. Barnum</div>
@@ -242,8 +242,8 @@
             </div>
             <!--copyright -->
             <div class="flex">
-                <p class="text-lg text-center">
-                    Copyright &copy; {{year}} Ogmmanue | All Rights Reserved
+                <p class="text-lg text-center sm:text-sm">
+                    Copyright &copy; {{year}} Ogmmanuel | All Rights Reserved
                 </p>
             </div>
 
