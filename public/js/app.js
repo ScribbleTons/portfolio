@@ -51068,9 +51068,9 @@ var render = function() {
           _c("div", { staticClass: "flex" }, [
             _c("p", { staticClass: "text-lg text-center" }, [
               _vm._v(
-                "\r\n                    © " +
+                "\r\n                    Copyright © " +
                   _vm._s(_vm.year) +
-                  " All Rights Reserved\r\n                "
+                  " Ogmmanue | All Rights Reserved\r\n                "
               )
             ])
           ])
