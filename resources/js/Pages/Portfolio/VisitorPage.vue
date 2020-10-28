@@ -104,7 +104,7 @@
                 <blockquote class="text-md italic font-bold">The noblest art is that of making others Happy.</blockquote>
                 <div>- P.T. Barnum</div>
                 </p>
-                <a href="/download/test.png" target="_blank" download>
+                <a href="/download/emmanuel-resume.pdf" target="_blank" download>
                     <button class="px-4 my-4 py-2 bg-black outline-none text-white uppercase tracking-tight hover:shadow-lg">
                         Download my cv
                     </button>
