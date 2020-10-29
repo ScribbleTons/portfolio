@@ -206,6 +206,7 @@
                         <div class="inline-flex flex-col items-center my-5 mx-5 bg-white">
                             <h2 class="uppercase tracking-widest text-xl">Let's talk</h2>
                             <img class="p-2" :src="images.lines" alt="lines" width="100">
+                            <p class="tracking-tight text-sm p-2 text-center">Send me a message below and I will respond to you within 24hrs.</p>
                         </div>
                         <div class="block md:px-20 lg:px-64">
                             <form action="/contact" method="post" autocomplete="true">
@@ -352,7 +353,7 @@ export default {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    opacity: 0.3;
+    opacity: 0.5;
     background-color: #aaabf0;
     border-color: #ffffff;
     border-bottom-width: 4px;
