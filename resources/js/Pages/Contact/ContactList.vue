@@ -13,7 +13,7 @@
                 </div>
             </form>
             <div class="p-2 mx-4 ">
-                <inertia-link :href="'/contact/list/trash'">
+                <inertia-link :href="route('contact.trash.list')">
                     <span class="text-gray-700 font-mono font-semibold text-left">
                         Trash Bin
                     </span>

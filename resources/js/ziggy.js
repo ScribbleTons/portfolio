@@ -1,14 +1,210 @@
     var Ziggy = {
-        namedRoutes: {"login":{"uri":"login","methods":["GET","HEAD"],"domain":null},"logout":{"uri":"logout","methods":["POST"],"domain":null},"password.request":{"uri":"forgot-password","methods":["GET","HEAD"],"domain":null},"password.email":{"uri":"forgot-password","methods":["POST"],"domain":null},"password.reset":{"uri":"reset-password\/{token}","methods":["GET","HEAD"],"domain":null},"password.update":{"uri":"reset-password","methods":["POST"],"domain":null},"user-profile-information.update":{"uri":"user\/profile-information","methods":["PUT"],"domain":null},"user-password.update":{"uri":"user\/password","methods":["PUT"],"domain":null},"password.confirm":{"uri":"user\/confirm-password","methods":["GET","HEAD"],"domain":null},"password.confirmation":{"uri":"user\/confirmed-password-status","methods":["GET","HEAD"],"domain":null},"two-factor.login":{"uri":"two-factor-challenge","methods":["GET","HEAD"],"domain":null},"profile.show":{"uri":"user\/profile","methods":["GET","HEAD"],"domain":null},"other-browser-sessions.destroy":{"uri":"user\/other-browser-sessions","methods":["DELETE"],"domain":null},"current-user.destroy":{"uri":"user","methods":["DELETE"],"domain":null},"current-user-photo.destroy":{"uri":"user\/profile-photo","methods":["DELETE"],"domain":null},"api-tokens.index":{"uri":"user\/api-tokens","methods":["GET","HEAD"],"domain":null},"api-tokens.store":{"uri":"user\/api-tokens","methods":["POST"],"domain":null},"api-tokens.update":{"uri":"user\/api-tokens\/{token}","methods":["PUT"],"domain":null},"api-tokens.destroy":{"uri":"user\/api-tokens\/{token}","methods":["DELETE"],"domain":null},"contact.store":{"uri":"contact","methods":["POST"],"domain":null},"download":{"uri":"download\/{file}","methods":["GET","HEAD"],"domain":null},"contact.list":{"uri":"contact\/list","methods":["GET","HEAD"],"domain":null},"contact.view":{"uri":"contact\/{contact}","methods":["GET","HEAD"],"domain":null},"contact.trash":{"uri":"contact\/{contact}","methods":["DELETE"],"domain":null},"contact.trash.list":{"uri":"contact\/list\/trash","methods":["GET","HEAD"],"domain":null},"contact.restore":{"uri":"contact\/{contact}\/restore","methods":["DELETE"],"domain":null},"contact.destroy":{"uri":"contact\/{contact}\/destroy","methods":["DELETE"],"domain":null}},
-        baseUrl: 'http://ogmmanuel/',
+        namedRoutes: {
+            "login": {
+                "uri": "login",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "generated::Ljm7gqUFYi7kSCLo": {
+                "uri": "login",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "logout": {
+                "uri": "logout",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "password.request": {
+                "uri": "forgot-password",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "password.email": {
+                "uri": "forgot-password",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "password.reset": {
+                "uri": "reset-password\/{token}",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "password.update": {
+                "uri": "reset-password",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "user-profile-information.update": {
+                "uri": "user\/profile-information",
+                "methods": ["PUT"],
+                "domain": null
+            },
+            "user-password.update": {
+                "uri": "user\/password",
+                "methods": ["PUT"],
+                "domain": null
+            },
+            "password.confirm": {
+                "uri": "user\/confirm-password",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "generated::Wr9Zkv9uMMoDdxLl": {
+                "uri": "user\/confirm-password",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "password.confirmation": {
+                "uri": "user\/confirmed-password-status",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "two-factor.login": {
+                "uri": "two-factor-challenge",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "generated::2q3qw96YMVxNDg5i": {
+                "uri": "two-factor-challenge",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "generated::InONXKaKt4b0HdVv": {
+                "uri": "user\/two-factor-authentication",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "generated::zBS50IGyu4muv4l3": {
+                "uri": "user\/two-factor-authentication",
+                "methods": ["DELETE"],
+                "domain": null
+            },
+            "generated::tvJlXa1dLCiCWwFx": {
+                "uri": "user\/two-factor-qr-code",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "generated::yxHaGaZAuFGGSO05": {
+                "uri": "user\/two-factor-recovery-codes",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "generated::ERBVzQ5WvU2OKQFB": {
+                "uri": "user\/two-factor-recovery-codes",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "profile.show": {
+                "uri": "user\/profile",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "other-browser-sessions.destroy": {
+                "uri": "user\/other-browser-sessions",
+                "methods": ["DELETE"],
+                "domain": null
+            },
+            "current-user.destroy": {
+                "uri": "user",
+                "methods": ["DELETE"],
+                "domain": null
+            },
+            "current-user-photo.destroy": {
+                "uri": "user\/profile-photo",
+                "methods": ["DELETE"],
+                "domain": null
+            },
+            "api-tokens.index": {
+                "uri": "user\/api-tokens",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "api-tokens.store": {
+                "uri": "user\/api-tokens",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "api-tokens.update": {
+                "uri": "user\/api-tokens\/{token}",
+                "methods": ["PUT"],
+                "domain": null
+            },
+            "api-tokens.destroy": {
+                "uri": "user\/api-tokens\/{token}",
+                "methods": ["DELETE"],
+                "domain": null
+            },
+            "generated::HnDv7ZC6kraeLuUF": {
+                "uri": "sanctum\/csrf-cookie",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "generated::RDqRCEfmUQlQGYqT": {
+                "uri": "api\/user",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "generated::wKHBbQhdge5yDoS5": {
+                "uri": "\/",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "contact.store": {
+                "uri": "contact",
+                "methods": ["POST"],
+                "domain": null
+            },
+            "download": {
+                "uri": "download\/{file}",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "generated::o2BK6wrJfCwwmdvI": {
+                "uri": "dashboard",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "contact.list": {
+                "uri": "contact\/list",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "contact.view": {
+                "uri": "contact\/{contact}",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "contact.trash": {
+                "uri": "contact\/{contact}",
+                "methods": ["DELETE"],
+                "domain": null
+            },
+            "contact.trash.list": {
+                "uri": "contact\/list\/trash",
+                "methods": ["GET", "HEAD"],
+                "domain": null
+            },
+            "contact.restore": {
+                "uri": "contact\/{contact}\/restore",
+                "methods": ["PUT"],
+                "domain": null
+            },
+            "contact.destroy": {
+                "uri": "contact\/{contact}\/destroy",
+                "methods": ["DELETE"],
+                "domain": null
+            }
+        },
+        baseUrl: 'http://www.ogmmanuel.site/',
         baseProtocol: 'http',
-        baseDomain: 'ogmmanuel',
+        baseDomain: 'ogmmanuel.site',
         basePort: false,
         defaultParameters: []
     };
 
-    if (typeof window !== 'undefined' && typeof window.Ziggy !== 'undefined') {
-        for (var name in window.Ziggy.namedRoutes) {
+    if(typeof window !== 'undefined' && typeof window.Ziggy !== 'undefined') {
+        for(var name in window.Ziggy.namedRoutes) {
             Ziggy.namedRoutes[name] = window.Ziggy.namedRoutes[name];
         }
     }

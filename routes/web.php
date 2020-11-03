@@ -14,8 +14,8 @@ Route::post('/contact', [ContactController::class, 'store'])->name('contact.stor
 Route::get('/download/{file}', [DownloadsController::class, 'download'])->name('download');
 
 
-Route::middleware(['auth:sanctum', 'verified'])->group(function () {
-    Route::get('/dashboard',[HomeController::class, 'index']);
+Route::middleware(['auth:sanctum', 'verified'])->prefix('dashboard')->group(function () {
+    Route::get('/',[HomeController::class, 'index']);
     Route::get('/contact/list', [ContactController::class, 'index'])->name('contact.list');
     Route::get('/contact/{contact}', [ContactController::class, 'show'])->name('contact.view');
     Route::delete('/contact/{contact}', [ContactController::class, 'trash'])->name('contact.trash');
