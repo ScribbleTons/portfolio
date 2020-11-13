@@ -101,10 +101,10 @@
                 <img class="p-2" :src="images.lines" alt="lines">
                 <p class="text-center px-4 my-5 text-lg lg:px-20">Hello! I'm Emmanuel, a full-stack developer, a PHP Laravel and Vue.js enthusiast, a guy slighty obsessed for code quality, and love to collaborate and solve problems with others. Also I'm a software project manager. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
                 <div class="text-center px-4">
-                <blockquote class="text-md italic font-bold">The noblest art is that of making others Happy.</blockquote>
-                <p>- P.T. Barnum</p>
+                    <blockquote class="text-md italic font-bold">The noblest art is that of making others Happy.</blockquote>
+                    <p>- P.T. Barnum</p>
                 </div>
-                <a href="/download/Emmanuel-Resume.pdf" target="_blank" download>
+                <a href="https://drive.google.com/file/d/1KEd0TWS8u7dF6nUblQHvHefKwcyYdVKU/view?usp=sharing" target="_blank" download>
                     <button class="px-4 my-4 py-2 bg-black outline-none text-white uppercase tracking-tight hover:shadow-lg">
                         Download my cv
                     </button>
